@@ -8,7 +8,8 @@ public class Book {
     private Author author;
 
 
-    public Book(){}
+
+
 
 
     public Book(String name, int publishingYear, Author author){
@@ -21,7 +22,7 @@ public class Book {
         return name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
 
     }
@@ -35,9 +36,6 @@ public class Book {
     public Author getAuthor(){
         return author;
 
-    }
-    public void setAuthor(Author author){
-        this. author = author;
     }
 
 
