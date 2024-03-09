@@ -22,13 +22,6 @@ public class Book {
         return name;
     }
 
-    public void getName(String name){
-        this.name = name;
-
-
-
-
-    }
     public int getPublishingYear(){
         return publishingYear;
     }
