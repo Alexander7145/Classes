@@ -22,9 +22,7 @@ public class Author {
     public String getFamilyName(){
         return familyName;
     }
-    public void  setFamilyName(String familyName) {
-        this.familyName = familyName;
-    }
+
 
 
     @Override
